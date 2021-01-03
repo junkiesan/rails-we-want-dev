@@ -33,6 +33,11 @@ gem 'devise'
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'simple_form'
+
+# Payment platform
+gem 'stripe', '~> 1.43'
+gem 'stripe_event'
+
 group :development, :test do  gem 'pry-byebug'
   gem 'pry-rails'
   gem 'dotenv-rails'
